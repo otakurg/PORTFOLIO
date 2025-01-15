@@ -74,3 +74,8 @@ if __name__ == "__main__":
     # Extract metadata
     video_url_for_metadata = "https://www.youtube.com/watch?v=_SQcugGeZIw&t=6s"
     extract_metadata(video_url_for_metadata)
+
+    # # Scrape channel information
+    # api_key = 'YOUR_API_KEY'
+    # channel_url = 'https://www.youtube.com/@scraperapi/about'
+    # scrape_channel_info(channel_url, api_key)
